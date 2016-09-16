@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var orderType = 'business';
+    var shipMethode;
+    switch (orderType) {
+        case 'business' : shipMethode = 'Fedex';
+            break;
+        case 'personal' : shipMethode = 'ups ground';
+            break;
+        default : shipMethode = 'ups';
+    }
+
+    document.write(shipMethode);
+</script>
+
+</body>
+</html>
